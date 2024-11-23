@@ -30,8 +30,6 @@ body {
 
 #main {
   width: 75%;
-  display: flex;
-  flex-direction: column;
   gap: 0px;
   padding: 10px;
   border-radius: 10px;
@@ -69,11 +67,11 @@ body {
   text-align: center;
   padding-bottom: 0.3em;
   font-size: 2em;
-  border-bottom: 2px solid var(--borderColor-muted, var(--color-border-muted));
+  border-bottom: 2px solid var(--borderColor-muted);
 }
 
 #main h2 {
   padding-bottom: 0.3em;
   font-size: 1.5em;
-  border-bottom: 1px solid var(--borderColor-muted, var(--color-border-muted));
+  border-bottom: 1px solid var(--borderColor-muted);
 }
